@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "DashNomad",
+    "slug": "DashNomad",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/DashNomadLogo.jpeg",
+    "scheme": "dashnomad",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0E1A",
+        "foregroundImage": "./assets/images/icon.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/DashNomadLogo.jpeg",
+      "title": "DashNomad | Daily Global Travel Shorts",
+      "description": "DashNomad explores the world in a blink. Catch daily high-energy travel shorts, hidden gems, and nomadic adventures from across the globe.",
+      "lang": "en",
+      "backgroundColor": "#0A0E1A",
+      "themeColor": "#FF6B00"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/DashNomadLogo.jpeg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#0A0E1A"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
