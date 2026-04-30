@@ -39,7 +39,7 @@ const SOCIAL_LINKS = [
     id: 'facebook',
     label: 'Facebook',
     handle: 'DashNomad',
-    url: 'https://www.facebook.com/teamdashnomad/',
+    url: 'https://www.facebook.com/DashNomadTravel/',
     icon: 'f',
     bgColor: 'rgba(24, 119, 242, 0.1)',
     borderColor: 'rgba(24, 119, 242, 0.35)',
